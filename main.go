@@ -66,7 +66,7 @@ func main() {
 				log.Fatal(fmt.Errorf("error: country index %s does not exist line %d", geonameId, n+1))
 			}
 			// csv
-			fmt.Printf("\"%s\",\"%s\",\"%d\",\"%d\",\"%s\",\"%s\" \n", startIP, endIP, startIPint, endIPint, country.country_iso_code, country.country_name)
+			fmt.Printf("\"%s\",\"%s\",\"%d\",\"%d\",\"%s\",\"%s\"\n", startIP, endIP, startIPint, endIPint, country.country_iso_code, country.country_name)
 
 		}
 		n++
